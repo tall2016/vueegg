@@ -29,6 +29,12 @@ const routes = [
   }
   ,
   {
+    path: '/table2',
+    name: 'table2',
+    component: () => import(/* webpackChunkName: "about" */ '../views/table2.vue')
+  }
+  ,
+  {
     path: '/movies',
     name: 'movies',
     component: () => import(/* webpackChunkName: "about" */ '../views/movies.vue')
