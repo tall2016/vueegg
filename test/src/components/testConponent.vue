@@ -31,7 +31,7 @@ watch: {},
 methods: {
     test(e, t) {    
         console.log(e,t)
-        this.$emit('test')
+        this.$emit('test',{'fsd':23,'fsdf':33})
     }
 },
 created() {

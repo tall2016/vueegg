@@ -9,7 +9,7 @@
 export function isExternal(path) {
   return /^(https?:|mailto:|tel:)/.test(path)
 }
-
+console.log('isExternal')
 /**
  * @param {string} str
  * @returns {Boolean}

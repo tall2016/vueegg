@@ -123,8 +123,8 @@
           console.log(res)
         })
       },
-      test123(){
-        console.log(535)
+      test123(a){
+        console.log(a,'333')
       },
       addUser(row){
           
